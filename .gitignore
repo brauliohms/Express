@@ -1,0 +1,28 @@
+node_modules/
+coverage/
+dist/
+**/**/*.log
+.env
+.env.local
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+
+# npm.lock
+package-lock.json
+# yarn.lock
+yarn.lock
+
+# OS metadata
+.DS_Store
+Thumbs.db
+*.pem
+
+# Editors
+.idea
+*.iml
