@@ -1,4 +1,4 @@
-import { Formatter } from "../../../src/core/common/Formatter"
+import { Formatter } from "../../../../src/core/common"
 
 test("Can be return only Numbers with length is string", () => {
   const case1 = "123456"
