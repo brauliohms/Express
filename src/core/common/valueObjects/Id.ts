@@ -1,6 +1,6 @@
 import { isValid, ulid } from "ulidx"
 import { Errors } from "../constants"
-import { ErrorValidator } from "../utils/ErrorValidator"
+import { ErrorValidator } from "../utils"
 
 export class Id {
   readonly value: string

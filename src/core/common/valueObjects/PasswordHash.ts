@@ -1,5 +1,5 @@
 import { Errors } from "../constants"
-import { ErrorValidator } from "../utils/ErrorValidator"
+import { ErrorValidator } from "../utils"
 
 export class PasswordHash {
   // eslint-disable-next-line no-useless-escape

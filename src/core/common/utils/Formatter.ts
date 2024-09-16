@@ -31,7 +31,7 @@ export class Formatter {
     const factor = num.includes(",") ? 1 : 1
     const unmasked =
       parseFloat(num.replace(/\./g, "").replace(/,/g, ".")) / factor
-    const decimalPlaces = num.split(",")[1]?.length
+    const decimalPlaces = num.split(",")[1]?.length ?? 0
 
     // if (decimalPlaces === 1) return unmasked * 10
     if (decimalPlaces >= 3) return Number(unmasked.toFixed(2))

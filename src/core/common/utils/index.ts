@@ -1,7 +1,3 @@
-export * from "../valueObjects/Email"
-export * from "../valueObjects/Id"
-export * from "../valueObjects/PasswordHard"
-export * from "../valueObjects/PasswordHash"
 export * from "./Entity"
 export * from "./ErrorValidator"
 export * from "./Formatter"
