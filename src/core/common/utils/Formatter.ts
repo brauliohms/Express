@@ -91,12 +91,12 @@ export class Formatter {
 
     // Adiciona zeros à esquerda se necessário para garantir pelo menos três dígitos
     if (value.length === 1) {
-      // value = "00" + value;
+      // Value = "00" + value;
       value = value.padStart(3, "0")
     } else if (value.length === 2) {
       value = "0" + value
     } else {
-      // value = value.replace(/0/, "");
+      // Value = value.replace(/0/, "");
       // Remove zero inicial se presente
       value = value.replace(/^0(0)?/, "")
     }

@@ -1,4 +1,3 @@
-/* eslint-disable no-undef */
 /** @type {import('ts-jest').JestConfigWithTsJest} **/
 
 module.exports = {
@@ -10,7 +9,7 @@ module.exports = {
   moduleNameMapper: {
     "^@/(.*)": "<rootDir>/$1", // Mapeia o alias '@' para 'src'
   },
-  // collectCoverage: true,
+  // CollectCoverage: true,
   collectCoverageFrom: [
     "src/**/*.{js,jsx,ts,tsx}",
     "!src/**/*.d.ts",
